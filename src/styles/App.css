@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(36, 35, 43);
+  }
+  .movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  }
+.header{
+    background-color:rgb(67, 199, 199);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header h1{
+    color: #fff;
+}
+.search{
+    border: 2px solid  rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+
+
+}
+.search:focus{
+    outline: 0;  
+    
+}
+.header-title h1{
+    cursor: pointer;
+}
+.header-title a{
+    text-decoration: none;
+}
